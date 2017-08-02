@@ -425,7 +425,6 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
@@ -645,9 +644,9 @@ img.ux{
 @media only screen and (max-width: 500px) {
     /* For mobile phones: */
 #brand{
-	font-size: 22px;
+	font-size: 20px;
     width: 72px;
-    height: 86px;
+    height: 80px;
     margin: 5px 5px 5px 16px !important;
 }
 #logo span{
