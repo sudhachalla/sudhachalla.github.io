@@ -611,6 +611,7 @@ a:focus {
     height: 400px;
     margin-top: 250px;
   }
+
 }
 
 #work img{
@@ -671,10 +672,11 @@ ul.nav.navbar-nav{
 .intro{
 	background-position: 34%;
 }
-}
 .response{
 	clear:both;
 }
+}
+
 .branding, .response, .ui, .ux{
 	margin-bottom:50px;
 }
