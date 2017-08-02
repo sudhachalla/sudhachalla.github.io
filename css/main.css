@@ -626,7 +626,7 @@ img.ux{
 }
 #skill p{
 	margin-top: 14px;
-    font-size: 16px;
+    font-size: 20px;
 }
 #work{
 	padding-top:80px;
@@ -671,4 +671,10 @@ ul.nav.navbar-nav{
 .intro{
 	background-position: 34%;
 }
+}
+.response{
+	clear:both;
+}
+.branding, .response, .ui, .ux{
+	margin-bottom:50px
 }
