@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UI/UX Designer</title>
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Julius+Sans+One|Ropa+Sans|Oswald|Poppins|Actor|Marck+Script|Barlow+Condensed" rel="stylesheet">	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<section class="section"> 
+		<nav id="header" class="navbar navbar-fixed-top">
+			<div id="header-container" class="container navbar-container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div id="logo"><!--<img class="img-responsive logo-img" src="images/sud1.png" />--><a id="brand" class="navbar-brand logo" href="#">SUDHA CHALLA</a><br></div>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+				<ul id="menu" class="nav navbar-nav">
+					<li data-menuanchor="firstPage" ><a href="#firstPage"></a></li>
+					<li data-menuanchor="secondPage" ><a href="#firstPage">About Me</a></li>
+					<li data-menuanchor="3rdPage" ><a href="#3rdPage">Portfolio</a></li>
+					<li data-menuanchor="4thpage"><a href="#4thpage">Let's Talk</a></li>
+				</ul>
+				</div>		
+			</div>
+		</nav>	
+	</section>
+
+<div id="fullpage">
+	<div class="section " id="top_section">
+		<div class="container wow fadeInDown animated" data-wow-duration="1500ms" data-wow-delay="1000ms">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">					
+						<div id="banner_section" class="text-right col-sm-6">
+							<p class="bio">I am</p>
+							<p class="bio-caption">Sudha Challa</p>
+							<p class="ui_ux">UI/UX Designer</p>
+							<div class="ui_ux">AR & VR Enthusiast</div>
+						</div>
+						<div id="banner_section_img" class="text-left col-sm-6">
+							<p>S</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2" >
+		<div class="intro">
+			<h1>About Me</h1>
+			<p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>Portfolio</h1>
+			<p>And it will animate down to the first section</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			<h1>Lets Talk</h1>
+			<p>And it will animate down to the first section</p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript">
+    /*var myFullpage = new fullpage('#fullpage', {
+      sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+      menu: '#menu',
+      continuousVertical: false,
+      afterLoad: function(anchorLink, index){
+            console.log("AFTER LOAD - anchorLink:" +anchorLink + " index:" +index );
+        },
+        onLeave: function(index, nextIndex, direction){
+            console.log("ONLEAVE - index:" +index + " nextIndex:" +nextIndex  + " direction:" + direction);
+
+        },
+    });*/
+</script>
+
+</body>
+</html>
