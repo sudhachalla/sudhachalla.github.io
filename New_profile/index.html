@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UI/UX Designer</title>
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>	
+	
+	<link href="https://fonts.googleapis.com/css?family=Gruppo|Jura|Passion+One|Poiret+One|Anton|Muli|Roboto+Condensed|Anton|Julius+Sans+One|Ropa+Sans|Oswald|Poppins" rel="stylesheet">
+
+	
+</head>
+	<body>
+		<header class="">
+			<div class="">
+				<div class="header-top clearfix ">
+					<div class="l-left">
+						<a href="#firstSection"><img id="logo" class="animated fadeInLeft" src="img/logo.png" /></a>
+					</div>
+					<a class="l-right toggle-menu menu-icon " href="#">
+					  <i></i>
+					  <i></i>
+					  <i></i>
+					</a>
+				</div>				
+				<nav class="navigation">
+					<ul id="menu">
+					  <li data-menuanchor="firstSection" class="active">
+						<a href="#firstSection" title="Profile">Profile</a>
+					  </li>
+					  <li data-menuanchor="secondSection">
+						<a href="#secondSection" title="About Me">About Me</a>
+					  </li>
+					  <li data-menuanchor="thirdSection">
+						<a href="#thirdSection" title="Work">Work</a>
+					  </li>
+					  <li data-menuanchor="fourthSection">
+						<a href="#fourthSection" title="Contact">Contact</a>
+					  </li>
+					 
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="homepage">
+		  <section id="landing" class="background section">
+			<div class="content-wrapper bgpaper centered">
+				<div class="container">
+					<!--<img id="main-bg" src="img/1_bg.png"/>-->
+					<div class="section1_content">
+						<div class="content col-sm-4  col-xs-4 col-sm-offset-2  col-xs-offset-0 animated fadeInLeft ">
+							<p class="designation">Sudha Challa</p>
+							<p class="name ">UX & UI</p>
+							<p class="name">Designer</p>
+							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>							
+						</div>							
+					</div>
+				</div>
+			</div>
+		  </section>
+		  <section class="background section" id="about">
+			<div class="content-wrapper centered">
+			  <div class="container">
+				  <h3 class="content-title">Second</h3>
+				  <p class="content-subtitle">
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>
+			  </div>
+			</div>
+		  </section>
+		  <section id="work" class="background section">
+			<div class="content-wrapper centered">
+			  <div class="container">
+				  <h3 class="content-title">Third</h3>
+				  <p class="content-subtitle">
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>
+			  </div>
+			</div>
+		  </section>
+		  <section id="contact" class="background section">
+			<div class="content-wrapper centered">
+			  <div class="container">
+				  <h3 class="content-title">Fourth</h3>
+				  <p class="content-subtitle">
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>
+			  </div>
+			</div>
+		  </section>
+		</div>
+		<script>
+			$(document).ready(function() {
+
+				var $header_top = $('.header-top');
+				var $nav = $('nav');
+
+				$header_top.find('a').on('click', function() {
+				  $(this).parent().toggleClass('open-menu');
+				});
+
+				$('#homepage').fullpage({
+					scrollingSpeed: 800,
+					autoScrolling: true,
+					fitToSection: true,
+					fitToSectionDelay: 2000,
+							anchors: ['home', 'about-us', 'what-we-do', 'our-work'],
+							sectionsColor: ['#f2f2f2', '#1BBC9B', '#7E8F7C', '#C63D0F'],
+					verticalCentered: false,
+							navigation: true,
+							navigationPosition: 'right',
+							navigationTooltips: ['About','What I do','Portfolio','Contact'],
+							responsiveWidth: 900,
+							anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+							menu: '#menu',
+					onLeave: function(index, nextIndex, direction){
+						  if(direction == "up"){
+							$(".section").removeClass("down");
+							$(".section").removeClass("next");
+							$(".section").removeClass("prev");
+							$("#homepage .section:nth-child("+nextIndex+")").addClass("up");
+							$("#homepage .section:nth-child("+nextIndex+")").next().addClass("next up");
+							$("#homepage .section:nth-child("+nextIndex+")").prev().addClass("prev up");
+						  }else{
+							$(".section").removeClass("up");
+							$(".section").removeClass("next");
+							$(".section").removeClass("prev");
+							$("#homepage .section:nth-child("+nextIndex+")").addClass("down");
+							$("#homepage .section:nth-child("+nextIndex+")").next().addClass("next down");
+							$("#homepage .section:nth-child("+nextIndex+")").prev().addClass("prev down");
+						  }
+						  console.log(direction + nextIndex);
+							},
+				});
+			});
+		</script>
+	</body>
+</html>
