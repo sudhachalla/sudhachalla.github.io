@@ -25,16 +25,7 @@ ul, li {
 p{
 	text-align:left;
 }
-.header-top {
-    background: transparent !important;
-    height: 70px;
-    padding: 0 3%;
-    position: fixed;
-    top: 6%;
-    z-index: 12;
-    box-sizing: border-box;
-    width: 100%;
-}
+
 .l-left {
     float: left;
 }
@@ -42,7 +33,7 @@ p{
     float: right;
 }
 #logo{
-	width: 64%;
+	width: 60%;
 }
 .navbar-brand {
     font-size: 24px;
@@ -436,9 +427,9 @@ nav li.active a{
 }
 
 .header-top {
-	background: rgba(0, 47, 77, .3);
+	background: transparent !important;
 	height: 70px;
-	padding: 0 3%;
+	padding: 0 5.1%;
 	position: fixed;
 	top: 8%;
 	width: 100%;
@@ -491,4 +482,18 @@ h1 a {
 }
 #contact{
 	background:#cc0d32 !important;
+}
+img {
+    width:100%;
+}
+.about_content{
+	margin-top:200px;
+}
+.project_number{
+	font-size:100px;
+	font-family:bebas_neue;
+	padding:0 0 80px 0;
+}
+.project{
+	padding:0 60px 0 0;	
 }
