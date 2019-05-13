@@ -8,14 +8,13 @@
 	
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>	
@@ -29,7 +28,7 @@
 			<div class="">
 				<div class="header-top clearfix ">
 					<div class="l-left">
-						<a href="#firstSection"><img id="logo" class="animated fadeInLeft" src="img/logo.png" /></a>
+						<a href="#home"><img id="logo" class="animated fadeInLeft" src="img/logo.png" /></a>
 					</div>
 					<a class="l-right toggle-menu menu-icon " href="#">
 					  <i></i>
@@ -39,17 +38,17 @@
 				</div>				
 				<nav class="navigation">
 					<ul id="menu">
-					  <li data-menuanchor="firstSection" class="active">
-						<a href="#firstSection" title="Profile">Profile</a>
+					  <li data-menuanchor="home" class="active">
+						<a href="#home" title="Profile">Profile</a>
 					  </li>
-					  <li data-menuanchor="secondSection">
-						<a href="#secondSection" title="About Me">About Me</a>
+					  <li data-menuanchor="about">
+						<a href="#about" title="About Me">About Me</a>
 					  </li>
-					  <li data-menuanchor="thirdSection">
-						<a href="#thirdSection" title="Work">Work</a>
+					  <li data-menuanchor="portfolio">
+						<a href="#portfolio" title="Work">Work</a>
 					  </li>
-					  <li data-menuanchor="fourthSection">
-						<a href="#fourthSection" title="Contact">Contact</a>
+					  <li data-menuanchor="contact">
+						<a href="#contact" title="Contact">Contact</a>
 					  </li>
 					 
 					</ul>
@@ -66,15 +65,22 @@
 							<p class="designation">Sudha Challa</p>
 							<p class="name ">UX & UI</p>
 							<p class="name">Designer</p>
-							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>							
+							<p>User Experience Architect with a passion for designing beautiful and functional user experiences.</p>			
 						</div>							
 					</div>
 				</div>
 			</div>
 		  </section>
-		  <section class="background section" id="about">
+		  <section class="background section" id="about_section">
 			<div class="content-wrapper centered">
 			  <div class="container about_content">
+				
+			  </div>
+			</div>
+		  </section>
+		  <section id="work_section" class="background section">
+			<div class="content-wrapper centered">
+			  <div class="container portfolio_content">
 				<div class=" project col-sm-3 col-xs-4 animated fadeInLeft ">
 					<p class="project_number">01</p>
 					<img src="img/image1.jpg">						
@@ -89,28 +95,63 @@
 				</div>	
 				<div class="project col-sm-3 col-xs-4 animated fadeInLeft ">
 					<p class="project_number">04</p>
-					<img src="img/image1.jpg">						
+					<img src="img/image1.jpg" />						
 				</div>	
-				
-			  </div>
 			</div>
 		  </section>
-		  <section id="work" class="background section">
+		  <section id="contact_section" class="background section">
 			<div class="content-wrapper centered">
-			  <div class="container">
-				  <h3 class="content-title">Third</h3>
-				  <p class="content-subtitle">
-			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>
-			  </div>
-			</div>
-		  </section>
-		  <section id="contact" class="background section">
-			<div class="content-wrapper centered">
-			  <div class="container">
-				  <h3 class="content-title">Fourth</h3>
-				  <p class="content-subtitle">
-			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris</p>
-			  </div>
+				<div class="container">
+					<div class="contact_content">
+						<div>
+							<div class="col-md-6">
+							<svg viewBox="0 0 409 469" xmlns="http://www.w3.org/2000/svg" class="is-visible">
+
+								<path d="m390 204.687066-264.312934 264.312934c-72.9458694-72.945869-72.9117146-191.248646.076287-264.236647 72.988001-72.988002 191.290778-73.022156 264.236647-.076287z" fill="#d7c325" class="circleYellow icon"></path>
+
+								<g class="penBluen icon">
+									<path d="m219 189.141021c11.24895-4.601993 23.577366-7.141021 36.504562-7.141021 12.921078 0 25.243942 2.536626 36.488589 7.134489l-.000001.477451h-.006885l-36.493115 94.38806-36.493116-94.38806z" fill="#ffc1c1"></path>
+									<path d="m238.210526 238.091434c5.430244-2.298071 11.401766-3.569046 17.67044-3.569046 5.975591 0 11.681165 1.154908 16.905263 3.253476v.534226h-.003261l-17.286212 44.928716-17.286213-44.928716-.000016-.218663z" fill="#23a4ba"></path>
+								</g>
+
+								<g class="penWhite icon">
+									<path d="m74.988176 77.4154652c19.4191806-8.0010203 40.702474-12.4154652 63.019698-12.4154652 22.302134 0 43.571736 4.4084774 62.980305 12.3992408l-.000003.8297777h-.011882l-62.988118 164.0398295-62.9881177-164.0398295h-.0118823z" fill="#ffc1c1"></path>
+									<path d="m106.709113 162.336449c9.86793-4.202084 20.716466-6.525638 32.10379-6.525638 10.767535 0 21.053337 2.077504 30.483872 5.856271l-.000001.889675h-.005903l-31.290871 82.443243-31.290871-82.443243z" fill="#fafafa"></path>
+								</g>
+
+								<g class="penRed icon">
+									<path d="m291 56.9089524c6.103641-2.5191034 12.792996-3.9089524 19.807247-3.9089524 7.010932 0 13.697275 1.3885337 19.798581 3.9053764l-.000001.2613543h-.003735l-19.801037 51.6674603-19.801037-51.6674603z" fill="#ffc1c1"></path>
+									<path d="m301.423564 83.2874429c2.946432-1.2579501 6.186558-1.9536742 9.587919-1.9536742 3.242335 0 6.338159.6321896 9.172737 1.7809333v.2924319h-.00177l-9.379438 24.5937111-9.379439-24.5937111-.000008-.1196944z" fill="#b969dc"></path>
+								</g>
+
+								<g class="blueBottom icon" fill="#59266a">
+									<path d="m40 369c0-19.329966 16.5654643-35 37-35s37 15.670034 37 35z"></path>
+									<path d="m0 369c0-9.388841 8.73044738-17 19.5-17 10.7695526 0 19.5 7.611159 19.5 17z"></path>
+								</g>
+								<g class="blueTop icon" fill="#59266a">
+									<path d="m385 21h-42c0-11.59797975 9.40202-21 21-21s21 9.40202025 21 21z"></path>
+									<path d="m409 21h-22c0-6.0751322 4.924868-11 11-11s11 4.9248678 11 11z"></path>
+								</g>
+							</svg>
+							</div>
+							<div class="col-md-6">
+								<div class="content-subtitle col-md-offset-3 col-md-6 ">
+									<p class="caption"> Like what you see? Have a project you’d like to talk about? </p>
+								</div>
+								<p class="getIn col-md-6">Reach</p>
+								<p class="getIn col-md-offset-3 col-md-6">Out</p>	
+								<div class="col-md-12">
+								<p class="info">
+									<i class="fa fa-envelope"></i> <span>hello@sudhachalla.in</span>&nbsp;&nbsp;&nbsp;
+									<i class="fa fa-phone"></i> <span>+91 99996 666999</span> 
+								</p>
+							</div>									
+							</div>	
+											
+						</div>
+						
+					</div>
+				</div>
 			</div>
 		  </section>
 		</div>
@@ -136,7 +177,7 @@
 							navigationPosition: 'right',
 							navigationTooltips: ['About','What I do','Portfolio','Contact'],
 							responsiveWidth: 900,
-							anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+							anchors: ['home', 'about', 'portfolio', 'contact'],
 							menu: '#menu',
 					onLeave: function(index, nextIndex, direction){
 						  if(direction == "up"){

@@ -7,8 +7,9 @@
 	font-weight: normal;
 	font-style: normal;
 }
-body,p,li{
+body,p,li,span{
 	font-family:Muli;
+	font-size: 1.6rem;
 }
 h3{
 	font-family:Poiret One;
@@ -297,9 +298,11 @@ nav li.active a{
 	color:#fff;
 }
 .content-title {
-	font-size: 8vh;
+	font-size: 8rem;
 	line-height: 1.4;
 	font-weight: 600;
+	text-align: left;
+	/*font-family:bebas_neue;*/
 }
 
 #title{
@@ -447,11 +450,11 @@ h1 a {
 	padding: 0 10px;
 }
 .section1_content .name{
-	font-size: 8em;
+	font-size: 5em;
     font-family: bebas_neue;
 	margin-bottom: 0px;
 	text-align: left;
-	line-height:90px;
+	line-height:1em;
 }
 .section1_content .designation{
 	text-align:left;
@@ -470,30 +473,54 @@ h1 a {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-#about{
+#about_section{
 	background:url(../img/bg_section_2.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-#work{
+#work_section{
 	background:url(../img/bg_3.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-#contact{
+#contact_section{
 	background:#cc0d32 !important;
 }
 img {
     width:100%;
 }
-.about_content{
+.about_content, .contact_content, .portfolio_content{
 	margin-top:200px;
 }
 .project_number{
 	font-size:100px;
 	font-family:bebas_neue;
 	padding:0 0 80px 0;
+	color:#6a2772;
 }
 .project{
 	padding:0 60px 0 0;	
+}
+
+.getIn{
+	font-family: bebas_neue;
+	font-size:80px;
+	font-weight:600;
+	line-height: 90px;
+}
+#fp-nav ul li .fp-tooltip.right {
+    right: 30px !important;
+	font-family:Poiret One;
+	font-weight:600;
+	font-size:20px;
+	margin-top: -10px;
+}
+.caption{
+	padding-bottom:30px;
+}
+svg{
+max-width:60%;
+}
+.info{
+	padding:30px 0 0 0;
 }
