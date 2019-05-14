@@ -12,8 +12,10 @@ body,p,li,span{
 	font-size: 1.6rem;
 }
 h3{
-	font-family:Poiret One;
-	font-size:40px;
+	font-family:bebas_neue;
+	font-size:80px;
+	text-align:center;
+	margin:0px;
 }
 a {
 	text-decoration: none;
@@ -25,6 +27,7 @@ ul, li {
 }
 p{
 	text-align:left;
+	font-weight: 400;
 }
 
 .l-left {
@@ -81,7 +84,7 @@ p{
 }
 
 .toggle-menu i:nth-child(1) {
-	top: 16px;
+	top: 20px;
 }
 
 .toggle-menu i:nth-child(2) {
@@ -92,14 +95,20 @@ p{
 	top: 40px;
 }
 
+a.l-right.toggle-menu.menu-icon i:nth-child(2){
+	width:22px;
+}
 .open-menu i:nth-child(1) {
 	top: 30px;
 	-webkit-transform: rotateZ(45deg);
 	transform: rotateZ(45deg);
+	width:22px;
 }
 
 .open-menu i:nth-child(2) {
-	background: transparent;
+	top: 30px;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
 }
 
 .open-menu i:nth-child(3) {
@@ -125,7 +134,8 @@ nav {
  	padding: 0px 0;
 	z-index: 1;
 	height: 100%;
-	background-color:#8825c7 !important;
+	/*background-color:#8825c7 !important;*/
+	background-color:#000 !important;
 	top:0px;
 }
 
@@ -474,12 +484,13 @@ h1 a {
 	background-size:cover;
 }
 #about_section{
-	background:url(../img/bg_section_2.jpg);
+	/*background:url(../img/bg_section_2.jpg);*/
+	background:#08b6b4 !important;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #work_section{
-	background:url(../img/bg_3.png);
+	background:#a8b608 !important;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -487,10 +498,13 @@ h1 a {
 	background:#cc0d32 !important;
 }
 img {
-    width:100%;
+    /*width:100%;*/
 }
-.about_content, .contact_content, .portfolio_content{
+.contact_content, .portfolio_content{
 	margin-top:200px;
+}
+.about_content{
+	margin:150px 0 0 0;
 }
 .project_number{
 	font-size:100px;
@@ -519,8 +533,30 @@ img {
 	padding-bottom:30px;
 }
 svg{
-max-width:60%;
+	max-width:60%;
 }
 .info{
 	padding:30px 0 0 0;
+}
+.about_content h3{
+	margin:0px 0 50px 0;
+}
+.about_content p {
+    margin-top: 10px;
+    font-size: 14px;
+	text-align:center;
+}
+h4.title{
+	font-family:Poiret One;
+	font-weight:600;
+	font-size:16px;
+}
+.process_bg{
+	width:60%;
+}
+#process{
+	margin: 0 15%;
+}
+.fp-scrollable {
+    overflow: hidden !important;
 }
