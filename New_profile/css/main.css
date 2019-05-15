@@ -8,11 +8,11 @@
 	font-style: normal;
 }
 body,p,li,span{
-	font-family:Muli;
+	font-family:"Muli", sans-serif;
 	font-size: 1.6rem;
 }
 h3{
-	font-family:bebas_neue;
+	font-family:"bebas_neue", sans-serif;
 	font-size:80px;
 	text-align:center;
 	margin:0px;
@@ -461,7 +461,7 @@ h1 a {
 }
 .section1_content .name{
 	font-size: 5em;
-    font-family: bebas_neue;
+    font-family: "bebas_neue", sans-serif;
 	margin-bottom: 0px;
 	text-align: left;
 	line-height:1em;
@@ -470,7 +470,7 @@ h1 a {
 	text-align:left;
 	font-size: 18px;
 	font-weight:600;
-	font-family:Poiret One;
+	font-family:"Poiret One",sans-serif;
 }
 .section1_content .content {
 	color:#fff;
@@ -497,6 +497,9 @@ h1 a {
 #contact_section{
 	background:#cc0d32 !important;
 }
+#exp_section{
+	background:#23a4ba !important;
+}
 img {
     /*width:100%;*/
 }
@@ -508,7 +511,7 @@ img {
 }
 .project_number{
 	font-size:100px;
-	font-family:bebas_neue;
+	font-family:'bebas_neue',sans-serif;
 	padding:0 0 80px 0;
 	color:#6a2772;
 }
@@ -517,14 +520,14 @@ img {
 }
 
 .getIn{
-	font-family: bebas_neue;
+	font-family: "bebas_neue", sans-serif;
 	font-size:80px;
 	font-weight:600;
 	line-height: 90px;
 }
 #fp-nav ul li .fp-tooltip.right {
     right: 30px !important;
-	font-family:Poiret One;
+	font-family:"Poiret One",sans-serif;
 	font-weight:600;
 	font-size:20px;
 	margin-top: -10px;
@@ -539,7 +542,7 @@ svg{
 	padding:30px 0 0 0;
 }
 .about_content h3{
-	margin:0px 0 50px 0;
+	margin:0px 0 30px 0;
 }
 .about_content p {
     margin-top: 10px;
@@ -547,16 +550,150 @@ svg{
 	text-align:center;
 }
 h4.title{
-	font-family:Poiret One;
-	font-weight:600;
-	font-size:20px;
+	font-family:"Oswald",sans-serif;
+	font-weight:400;
+	font-size:18px;
 }
 .process_bg{
-	width:60%;
+	width:70%;
 }
 #process{
-	margin: 0 15%;
+	margin: 0 20%;
 }
 .fp-scrollable {
     overflow: hidden !important;
+}
+#process .row .col-md-4:nth-child(1) h4.title,#process .row .col-md-4:nth-child(3) h4.title{
+	padding:20px 0 0 0;
+}
+@media (max-width: 1200px){
+	.my_projects{
+		width: 100%;
+		padding-bottom: 2rem;
+		margin-bottom: 6rem;
+		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
+		-ms-scroll-snap-points-x: repeat(250px);
+		scroll-snap-points-x: repeat(250px);
+		-ms-scroll-snap-type: mandatory;
+		scroll-snap-type: mandatory;
+		scrollbar-color: #201c29;
+		scrollbar-width: 10px;
+	}
+	.header-card {
+		-webkit-writing-mode: vertical-rl;
+		-ms-writing-mode: tb-rl;
+		writing-mode: vertical-rl;
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+		-webkit-box-flex: 0;
+		-ms-flex: 0;
+		flex: 0;
+		width: 110px;
+		margin-right: 1rem;
+	}
+}
+.my_projects{
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100vw - 71px);
+    margin: 0 0 5rem 0;
+    padding: 2rem 0;
+}
+.popular-header {
+	margin: 3rem 0 !important;
+}
+.header-card {
+    /*background-image: -webkit-gradient(linear,left bottom,left top,from(#ff8a00),to(#da1b60));
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);*/
+	background:#cc0d32 ;
+    position: relative;
+    border-radius: 0px;
+    padding: 2rem;
+    margin: 0 4rem 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 320px;
+    flex: 0 0 280px;
+}
+.header-card-title {
+    font-size: 1.6rem;
+    margin: 0 0 .5rem 0;
+}
+.header-card p {
+    margin: 0;
+    font-size: .8rem;
+}
+.mini-card-grid {
+    scrollbar-color: #201c29;
+    scrollbar-width: 10px;
+    scrollbar-gutter: always;
+    padding: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   /* overflow-x: scroll;*/
+    -webkit-overflow-scrolling: touch;
+}
+.mini-card {
+    min-width: 300px;
+    min-height: 340px;
+    padding: 1.5rem;
+    border-radius:0px;
+    background: #17141d;
+	-webkit-box-shadow:  -5px 0px 10px -7px #333;
+	-moz-box-shadow: -5px 0px 10px -7px #333;
+    box-shadow: -5px 0px 10px -7px #333;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: .2s;
+    transition: .2s;
+    margin: 0;
+}
+.mini-card:focus-within, .mini-card:hover {
+    -webkit-transform: translate(0,-1rem);
+    transform: translate(0,-1rem);
+}
+.mini-card:not(:first-child) {
+    margin-left: -120px;
+}
+.mini-card:last-child:hover {
+    margin-left: -200px;
+}
+h2.article-card-header.read-article,.header-card-title{
+	text-align:left;
+	font-size:36px;
+	font-family:"Poiret One",sans-serif;
+}
+article.mini-card:nth-child(1){
+	background:#d4d4d4 !important;
+}
+article.mini-card:nth-child(2){
+	background:#d4d4d4 !important;
+}
+article.mini-card:nth-child(3){
+	background:#d4d4d4 !important;
+}
+article.mini-card:nth-child(4){
+	background:#d4d4d4 !important;
+}
+article.mini-card:nth-child(5){
+	background:#d4d4d4 !important;
 }

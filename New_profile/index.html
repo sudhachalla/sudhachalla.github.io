@@ -46,6 +46,9 @@
 					  <li data-menuanchor="work">
 						<a href="#work" title="Work">Work</a>
 					  </li>
+					  <li data-menuanchor="experience">
+						<a href="#exp" title="expe">Experience</a>
+					  </li>
 					  <li data-menuanchor="contact">
 						<a href="#contact" title="Contact">Contact</a>
 					  </li>
@@ -78,26 +81,26 @@
 							<div class="row">
 								<div class="col-md-4 col-sm-6  col-xs-6 animated fadeInLeft col-md-offset-4" data-cursor-type="big">
 									<h4 class="title">User Centered Analisis</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus, vel molestie ex. </p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus</p>
 								</div>
 							</div>
 							<div class="row"> 
 								<div class="col-md-4 col-sm-6  col-xs-6 animated fadeInLeft" data-cursor-type="big">
 									<h4 class="title">Visual design</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus, vel molestie ex. </p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus</p>
 								</div>
 								<div class="col-md-4 col-sm-6  col-xs-6 animated fadeInLeft" data-cursor-type="big">
 									<img class="process_bg" src="img/process_bg.png"/>
 								</div>
 								<div class="col-md-4 col-sm-6  col-xs-6 animated fadeInLeft" data-cursor-type="big">
 									<h4 class="title">Experience Mapping</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus, vel molestie ex. </p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus</p>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-4 col-sm-6  col-xs-6 animated fadeInLeft col-md-offset-4" data-cursor-type="big">
 									<h4 class="title">Interactive Prototype</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus, vel molestie ex. </p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ultricies lacus</p>
 								</div>
 							</div>
 						</div>
@@ -108,7 +111,78 @@
 				<div class="content-wrapper centered">
 					<div class="container portfolio_content">
 						<div class="row">
-							<h3>Profile</h3>
+							<h3>Projects.</h3>
+						</div>
+						<div class="row">
+							<div class="my_projects">
+								<header class="popular-header header-card white-underline-links">
+									<h2 class="header-card-title">
+										Project 1
+									</h2>
+									<p class="header-card-sponsor">Project details</p>									
+								</header>
+								<div class="mini-card-grid">
+									<article class="mini-card module module-article article" id="mini-post-285899">
+										<header class="mini-article-card-header">
+											<h2 class="article-card-header read-article">
+												Project 2
+											</h2>
+										</header>
+										<div class="mini-article-meta">
+											<p>project 2img</p>
+										</div>
+									</article>		
+									<article class="mini-card module module-article article" id="mini-post-285899">
+										<header class="mini-article-card-header">
+											<h2 class="article-card-header read-article">
+												Project 3
+											</h2>
+										</header>
+										<div class="mini-article-meta">
+											<p>project 3img</p>
+										</div>
+									</article>	
+									<article class="mini-card module module-article article" id="mini-post-285899">
+										<header class="mini-article-card-header">
+											<h2 class="article-card-header read-article">
+												Project 4
+											</h2>
+										</header>
+										<div class="mini-article-meta">
+											<p>project 4img</p>
+										</div>
+									</article>	
+									<article class="mini-card module module-article article" id="mini-post-285899">
+										<header class="mini-article-card-header">
+											<h2 class="article-card-header read-article">
+												Project 5
+											</h2>
+										</header>
+										<div class="mini-article-meta">
+											<p>project 5img</p>
+										</div>
+									</article>
+									<article class="mini-card module module-article article" id="mini-post-285899">
+										<header class="mini-article-card-header">
+											<h2 class="article-card-header read-article">
+												Project 6
+											</h2>
+										</header>
+										<div class="mini-article-meta">
+											<p>project 6img</p>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="exp_section" class="background section">
+				<div class="content-wrapper centered">
+					<div class="container">
+						<div class="exp_content">
+							<h3>Experience.</h3>
 						</div>
 					</div>
 				</div>
@@ -185,12 +259,11 @@
 					slidesNavigation: true,
 					slidesNavPosition: 'bottom',
 					fitToSectionDelay: 2000,
-					anchors: ['home', 'about-us', 'what-we-do', 'our-work'],
 					sectionsColor: ['#f2f2f2', '#1BBC9B', '#7E8F7C', '#C63D0F'],
 					verticalCentered: false,
 					navigation: true,
 					navigationPosition: 'right',
-					navigationTooltips: ['About','What I do','Portfolio','Contact'],
+					navigationTooltips: ['About','What I do','Portfolio','Experience','Contact'],
 					responsiveWidth: 0,
 					keyboardScrolling: true,
 					animateAnchor: true,
@@ -199,7 +272,7 @@
 					offsetSections:true,
 					responsiveSlides:true,
 					scrollOverflow:true,
-					anchors: ['home', 'about', 'work', 'contact'],
+					anchors: ['home', 'about', 'work', 'experience','contact'],
 					menu: '#menu',
 					onLeave: function(index, nextIndex, direction){
 						  if(direction == "up"){
