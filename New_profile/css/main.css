@@ -194,7 +194,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 	margin: -8px 0 0 -8px;
 	background: transparent;
 	box-sizing: border-box;
-	border: 1px solid #24221F;
+	border: 1px solid #fff;
 	background: #24221F;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
@@ -204,7 +204,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
     height: 1px !important;
     width: 16px !important;
     border: 0;
-    background: #333;
+    background: #fff !important;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -13px !important;	
@@ -235,7 +235,7 @@ nav li.active a{
 
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span {
-	background: white;
+	background: fff !important;
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
@@ -250,7 +250,7 @@ nav li.active a{
 	margin: -8px 0 0 -8px;
 	background: transparent;
 	box-sizing: border-box;
-	border: 1px solid #24221F;
+	border: 1px solid #fff;
 	background: #24221F;
 }
 
@@ -485,7 +485,7 @@ h1 a {
 }
 #about_section{
 	/*background:url(../img/bg_section_2.jpg);*/
-	background:#08b6b4 !important;
+	background:#26257b !important;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -549,7 +549,7 @@ svg{
 h4.title{
 	font-family:Poiret One;
 	font-weight:600;
-	font-size:16px;
+	font-size:20px;
 }
 .process_bg{
 	width:60%;
