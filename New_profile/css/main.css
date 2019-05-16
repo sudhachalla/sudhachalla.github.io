@@ -134,8 +134,8 @@ nav {
  	padding: 0px 0;
 	z-index: 1;
 	height: 100%;
-	/*background-color:#8825c7 !important;*/
-	background-color:#000 !important;
+	background-color:#8825c7 !important;
+	/*background-color:#000 !important;*/
 	top:0px;
 }
 
@@ -670,6 +670,7 @@ h4.title{
 .mini-card:focus-within, .mini-card:hover {
     -webkit-transform: translate(0,-1rem);
     transform: translate(0,-1rem);
+	background:#26257b !important;
 }
 .mini-card:not(:first-child) {
     margin-left: -120px;
@@ -683,17 +684,17 @@ h2.article-card-header.read-article,.header-card-title{
 	font-family:"Poiret One",sans-serif;
 }
 article.mini-card:nth-child(1){
-	background:#d4d4d4 !important;
+	background:#d4d4d4 ;
 }
 article.mini-card:nth-child(2){
-	background:#d4d4d4 !important;
+	background:#d4d4d4 ;
 }
 article.mini-card:nth-child(3){
-	background:#d4d4d4 !important;
+	background:#d4d4d4;
 }
 article.mini-card:nth-child(4){
-	background:#d4d4d4 !important;
+	background:#d4d4d4 ;
 }
 article.mini-card:nth-child(5){
-	background:#d4d4d4 !important;
+	background:#d4d4d4 ;
 }
