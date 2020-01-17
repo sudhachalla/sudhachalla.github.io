@@ -92,7 +92,7 @@ p{
 }
 	
 .toggle-menu i:nth-child(3) {
-	top: 40px;
+	top: 36px;
 }
 
 a.l-right.toggle-menu.menu-icon i:nth-child(2){
@@ -115,6 +115,7 @@ a.l-right.toggle-menu.menu-icon i:nth-child(2){
 	top: 30px;
 	-webkit-transform: rotateZ(-45deg);
 	transform: rotateZ(-45deg);
+	width: 22px !important;
 }
 
 nav {
