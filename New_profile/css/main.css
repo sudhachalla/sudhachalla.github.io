@@ -757,9 +757,6 @@ a.work-item:nth-child(2){
 }
 .process_wrapper{
 	background:transparent;
-	/*background: -moz-linear-gradient(45deg, #753098 1%, #f84b5c 100%);
-	background: -webkit-linear-gradient(45deg, #753098 1%,#f84b5c 100%);
-	background: linear-gradient(45deg, #753098 1%,#f84b5c 100%);*/
 	margin:0px;
 	padding:16px;
 }
@@ -774,14 +771,13 @@ a.work-item:nth-child(2){
     border-left: 12px solid #4a2464;
 }
 .sec_1 img,.sec_2 img,.sec_3 img,.sec_4 img{
-	width:50%;
+	width:50% !important;
 }
 .portfolio_content{
 	margin-top:180px;	
 }
 .process_content{
 	background:transparent;
-
 }
 #process .process_wrapper:last-child:after{
 	border:0px !important;
