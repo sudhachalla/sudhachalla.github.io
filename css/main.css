@@ -487,8 +487,8 @@ h1 a {
 }
 #about_section{
 	/*background:url(../img/bg_section_2.jpg);
-	background:#0314a2 !important;*/
-	background:#6447f5 !important;
+	background:#6447f5 !important;*/
+	background:#23a4ba !important;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -501,7 +501,7 @@ h1 a {
 	background:#cc0d32 !important;
 }
 #exp_section{
-	background:#23a4ba !important;
+	background:#5f04e8 !important;
 }
 img {
     /*width:100%;*/
