@@ -7,6 +7,22 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+    @font-face {
+    font-family: 'Orenburg Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Orenburg Regular'), url('Orenburg.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Orenburg Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Orenburg Italic'), url('Orenburg-Italic.woff') format('woff');
+    }
+	
 body,p,li,span{
 	font-family:"segoe UI", sans-serif;
 	font-size: 1.6rem;
@@ -476,9 +492,13 @@ h1 a {
 }
 .section1_content .content {
 	color:#fff;
-	padding: 100px 0 0 0;
+	padding: 150px 0 0 0;
 	margin-top:150px;
 }	
+.section1_img img{
+	width:55%;
+	margin-top:200px;	
+}
 
 #landing{
 	background:url(../img/main_bg.jpg);
@@ -486,9 +506,9 @@ h1 a {
 	background-size:cover;
 }
 #about_section{
-	/*background:url(../img/bg_section_2.jpg);
-	background:#6447f5 !important;*/
-	background:#23a4ba !important;
+	/*background:url(../img/bg_section_2.jpg);*/
+	background:#5f04e8 !important;
+	/*background:#23a4ba !important;*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -498,10 +518,11 @@ h1 a {
 	background-size:cover;
 }
 #contact_section{
-	background:#cc0d32 !important;
+	background:#ae0303 !important;
 }
 #exp_section{
-	background:#5f04e8 !important;
+	/*background:#5f04e8 !important;*/
+	background:#23a4ba !important;
 }
 img {
     /*width:100%;*/
@@ -669,7 +690,7 @@ a.work-item:nth-child(2){
     font-size: 1rem;
 }
 .cd-timeline-img {
-    background: #673AB7;
+    background: #23a4ba;
 }
 .cd-timeline-img {
     position: absolute;
